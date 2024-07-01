@@ -1,7 +1,6 @@
 import "./Home.css"
 import add from "./img/plus.png"
-import panda from "./img/panda.png"
-import panda2 from "./img/panda2.png"
+
 import ToDoCard from "../../components/todoCard/todoCard"
 import { useEffect, useState } from "react"
 import toast, {Toaster} from "react-hot-toast"
