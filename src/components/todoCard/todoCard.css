@@ -1,16 +1,18 @@
 .todo-Card{
     padding: 5px 20px ;
-    margin: 10px 20px;
+    margin:10px auto;
     border-radius: 5px;
     border: 1px solid gray;
     font-size: 20px;  
     position: relative;
-    background-color: rgb(145, 240, 180);
+    background-color: #e2e7a0;
     display: flex;
     align-items: center;
+    height: 40px;
+    top: 50px;
 }
 .category{
-    top: 5px;
+ 
     right: 35px;
     background-color: white;
     font-size: 14px;

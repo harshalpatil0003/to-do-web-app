@@ -49,7 +49,6 @@ function Home() {
   return (
     <div>
         <h1 className="app-title">To-Do App📝</h1>
-        <img src={panda} className="panda-img1" alt="panda1"/>
         <div className="todolist-container">
            {
             todoList.map((todoItem, i)=>{
@@ -60,16 +59,8 @@ function Home() {
             })
            }
 
-           {
-            todoList.length === 0
-            ? 
-              <p style={{textAlign:"center" , fontSize:'22px'}}>
-                No task to show, Add a new task
-                </p>
-            : null
-           }
+        
         </div>
-        <img src={panda2} className="panda-img2" alt="panda2"/>
         <div className="add-item-container">
             <input
                 type="text"

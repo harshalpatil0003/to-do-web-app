@@ -11,22 +11,23 @@
 .todolist-container{
     height: 500px;
     width: 500px;
-    background-color: white;
+    background-color: #fe9898;
     margin: 5px auto;
     border-radius: 10px;
     padding: 5px;
     overflow-y: scroll;
+    box-shadow: 0 0 50px 1px #030303;
 }
 .add-item-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 .add-input{
     padding: 5px 10px;
     border-radius: 10px;
-    border:1px solid gray;
+    border:2px solid rgb(255, 0, 0);
     font-size: 18px;
 }
 .add-icon{
@@ -43,7 +44,7 @@
     padding: 5px 10px;
     border-radius: 10px;
     font-size: 16px;
-    border: 1px solid gray;
+    border: 2px solid rgb(255, 0, 0);
     margin-left: 5px;
     cursor: pointer;
 }

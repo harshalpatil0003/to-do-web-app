@@ -13,12 +13,12 @@ function todoCard({index,task,categeory,deleteItem}) {
     }
     const Category_Color = {
         Sports: "#bfff80",
-        Learning: "#4d4dff",
-        Work: "#86b300",
+        Learning: "#8d4kff",
+        Work: "#86b307",
         Personal: "#0099ff",
-        Shopping: "#ff1ab3",
-        Health: "#00cc00",
-        Other: "#ffad33"
+        Shopping: "#fffab3",
+        Health: "#00cc50",
+        Other: "#ff7d33"
     }
 
   return (
